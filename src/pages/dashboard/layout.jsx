@@ -1,15 +1,13 @@
 import Head from 'next/head'
 
-
-export default function ErrorLayout({ children }) {
+export default function DashboardLayout({ children }) {
     return (
       <>
         <Head>
-            <title>Page Not Found | Reviewer Mode</title>
+            <title>Dashboard | Reviewer Mode</title>
         </Head>
         {children}
       </>
     );
   }
-  
   
