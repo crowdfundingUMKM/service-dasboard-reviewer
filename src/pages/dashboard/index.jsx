@@ -102,13 +102,14 @@ export default function Home() {
                             <tr>
                                 <th scope="row">
                                 <a href="#">
-                                    <img src="assets/img/product-1.jpg" alt="" />
+                                <Image src="/assets/img/product-1.jpg" alt="" width={70} height={70}/>
                                 </a>
                                 </th>
                                 <td>
-                                <a href="#" className="text-primary fw-bold">
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
                                     Ut inventore ipsa voluptas nulla
-                                </a>
+                                </Link>
                                 </td>
                                 <td>Rp. 31.000.000</td>
                                 <td className="fw-bold">124</td>
@@ -117,62 +118,82 @@ export default function Home() {
                             <tr>
                                 <th scope="row">
                                 <a href="#">
-                                    <img src="assets/img/product-2.jpg" alt="" />
+                                    <Image src="/assets/img/product-2.jpg" alt="" width={70} height={70}/>
                                 </a>
                                 </th>
                                 <td>
-                                <a href="#" className="text-primary fw-bold">
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
                                     Exercitationem similique doloremque
-                                </a>
+                                </Link>
                                 </td>
-                                <td>$46</td>
+                                <td>Rp. 3.000.000</td>
                                 <td className="fw-bold">98</td>
-                                <td>$4,508</td>
+                                <td>%2</td>
                             </tr>
                             <tr>
                                 <th scope="row">
                                 <a href="#">
-                                    <img src="assets/img/product-3.jpg" alt="" />
+                                    <Image src="/assets/img/product-3.jpg" alt="" width={70} height={70}/>
                                 </a>
                                 </th>
                                 <td>
-                                <a href="#" className="text-primary fw-bold">
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
                                     Doloribus nisi exercitationem
-                                </a>
+                                </Link>
                                 </td>
-                                <td>$59</td>
+                                <td>Rp. 13.000.000</td>
                                 <td className="fw-bold">74</td>
-                                <td>$4,366</td>
+                                <td>%2</td>
                             </tr>
                             <tr>
                                 <th scope="row">
                                 <a href="#">
-                                    <img src="assets/img/product-4.jpg" alt="" />
+                                    <Image src="/assets/img/product-4.jpg" alt="" width={70} height={70}/>
                                 </a>
                                 </th>
                                 <td>
-                                <a href="#" className="text-primary fw-bold">
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
                                     Officiis quaerat sint rerum error
-                                </a>
+                                </Link>
                                 </td>
-                                <td>$32</td>
+                                <td>Rp. 23.000.000</td>
                                 <td className="fw-bold">63</td>
-                                <td>$2,016</td>
+                                <td>%2</td>
                             </tr>
                             <tr>
                                 <th scope="row">
                                 <a href="#">
-                                    <img src="assets/img/product-5.jpg" alt="" />
+                                    <Image src="/assets/img/product-5.jpg" alt="" width={70} height={70}/>
                                 </a>
                                 </th>
                                 <td>
-                                <a href="#" className="text-primary fw-bold">
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
                                     Sit unde debitis delectus repellendus
-                                </a>
+                                </Link>
                                 </td>
-                                <td>$79</td>
+                                <td>Rp. 2.000.000</td>
                                 <td className="fw-bold">41</td>
-                                <td>$3,239</td>
+                                <td>%2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                <a href="#">
+                                    <Image src="/assets/img/product-5.jpg" alt="" width={70} height={70}/>
+                                </a>
+                                </th>
+                                <td>
+                                    {/* preview with campaign_id */}
+                                <Link href="/campaign/preview" className="text-primary fw-bold">
+                                    Sit unde debitis delectus repellendus
+                                </Link>
+                                </td>
+                                <td>Rp. 2.000.000</td>
+                                <td className="fw-bold">41</td>
+                                <td>%2</td>
                             </tr>
                             </tbody>
                         </DataTable>
