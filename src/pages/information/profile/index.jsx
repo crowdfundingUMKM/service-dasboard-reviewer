@@ -10,7 +10,7 @@ export default function Profile() {
                 <nav>
                     <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                        <a href="/dashboard">Home</a>
+                        <Link href="/dashboard">Home</Link>
                     </li>
                     <li className="breadcrumb-item">Information</li>
                     <li className="breadcrumb-item active">Profile</li>

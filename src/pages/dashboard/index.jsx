@@ -19,7 +19,7 @@ export default function Home() {
             <nav>
                 <ol className="breadcrumb">
                 <li className="breadcrumb-item">
-                    <a href="index.html">Home</a>
+                    Home
                 </li>
                 <li className="breadcrumb-item active">Dashboard</li>
                 </ol>
@@ -88,7 +88,7 @@ export default function Home() {
                         <h5 className="card-title">
                             Top Campaign UMKM <span>| Tahun ini</span>
                         </h5>
-                        <table className="table table-borderless">
+                        <DataTable>
                             <thead>
                             <tr>
                                 <th scope="col">Preview Campaign</th>
@@ -175,7 +175,7 @@ export default function Home() {
                                 <td>$3,239</td>
                             </tr>
                             </tbody>
-                        </table>
+                        </DataTable>
                         </div>
                     </div>
                     </div>
