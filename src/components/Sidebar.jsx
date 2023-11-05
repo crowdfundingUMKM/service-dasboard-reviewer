@@ -70,7 +70,7 @@ export default function Sidebar(){
             </a>
             <ul id="tables-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
             <li>
-                <Link href="/profit/profit-review" className={`${pathname === '/profit/profit-review' ? 'active' : ''}`}>
+                <Link href="/profit/profit-reviewer" className={`${pathname === '/profit/profit-reviewer' ? 'active' : ''}`}>
                 <i className="bi bi-circle" />
                 <span>Profit Review UMKM</span>
                 </Link>
