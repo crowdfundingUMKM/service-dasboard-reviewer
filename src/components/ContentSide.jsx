@@ -90,65 +90,65 @@ export default function ContentSide() {
     {/* End Recent Activity */}
     {/* News & Updates Traffic */}
     <div className="card">
-      <div className="card-body pb-0">
-        <h5 className="card-title">
-          Berita &amp; Update <span>| Hari ini</span>
-        </h5>
-        <div className="news">
-          <div className="post-item clearfix">
-            <img src="assets/img/news-1.jpg" alt="" />
-            <h4>
-              <a href="#">Nihil blanditiis at in nihil autem</a>
-            </h4>
-            <p>
-              Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed
-              ut harum...
-            </p>
-          </div>
-          <div className="post-item clearfix">
-            <img src="assets/img/news-2.jpg" alt="" />
-            <h4>
-              <a href="#">Quidem autem et impedit</a>
-            </h4>
-            <p>
-              Illo nemo neque maiores vitae officiis cum eum turos elan dries
-              werona nande...
-            </p>
-          </div>
-          <div className="post-item clearfix">
-            <img src="assets/img/news-3.jpg" alt="" />
-            <h4>
-              <a href="#">Id quia et et ut maxime similique occaecati ut</a>
-            </h4>
-            <p>
-              Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam
-              et totam...
-            </p>
-          </div>
-          <div className="post-item clearfix">
-            <img src="assets/img/news-4.jpg" alt="" />
-            <h4>
-              <a href="#">Laborum corporis quo dara net para</a>
-            </h4>
-            <p>
-              Qui enim quia optio. Eligendi aut asperiores enim repellendusvel
-              rerum cuder...
-            </p>
-          </div>
-          <div className="post-item clearfix">
-            <img src="assets/img/news-5.jpg" alt="" />
-            <h4>
-              <a href="#">Et dolores corrupti quae illo quod dolor</a>
-            </h4>
-            <p>
-              Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae
-              dignissimos eius...
-            </p>
-          </div>
+        <div className="card-body pb-0">
+            <h5 className="card-title">
+            Campaign UMKM &amp; Update <span>| Campaign</span>
+            </h5>
+            <div className="news">
+            <div className="post-item clearfix">
+                <Image src="/assets/img/news-1.jpg" alt="" width={80} height={60} />
+                <h4>
+                <Link href="#">Nihil blanditiis at in nihil autem</Link>
+                </h4>
+                <p>
+                Sit recusandae non aspernatur laboriosam. Quia enim eligendi sed
+                ut harum...
+                </p>
+            </div>
+            <div className="post-item clearfix">
+                <Image src="/assets/img/news-2.jpg" alt="" width={80} height={60} />
+                <h4>
+                <Link href="#">Quidem autem et impedit</Link>
+                </h4>
+                <p>
+                Illo nemo neque maiores vitae officiis cum eum turos elan dries
+                werona nande...
+                </p>
+            </div>
+            <div className="post-item clearfix">
+                <Image src="/assets/img/news-3.jpg" alt="" width={80} height={60}/>
+                <h4>
+                <Link href="#">Id quia et et ut maxime similique occaecati ut</Link>
+                </h4>
+                <p>
+                Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam
+                et totam...
+                </p>
+            </div>
+            <div className="post-item clearfix">
+                <Image src="/assets/img/news-4.jpg" alt="" width={80} height={60}/>
+                <h4>
+                <Link href="#">Laborum corporis quo dara net para</Link>
+                </h4>
+                <p>
+                Qui enim quia optio. Eligendi aut asperiores enim repellendusvel
+                rerum cuder...
+                </p>
+            </div>
+            <div className="post-item clearfix">
+                <Image src="/assets/img/news-5.jpg" alt="" width={80} height={60}/>
+                <h4>
+                <Link href="#">Et dolores corrupti quae illo quod dolor</Link>
+                </h4>
+                <p>
+                Odit ut eveniet modi reiciendis. Atque cupiditate libero beatae
+                dignissimos eius...
+                </p>
+            </div>
+            </div>
+            {/* End sidebar recent posts*/}
         </div>
-        {/* End sidebar recent posts*/}
       </div>
-    </div>
     {/* End News & Updates */}
   </div>
   {/* End Right side columns */}

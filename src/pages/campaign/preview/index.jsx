@@ -461,10 +461,13 @@ export default function PreviewCampaign() {
                                 <div className="row">
                                   <div className="col-lg-1">
                                     {/* Gambar Profil */}
-                                    <img
+                                    <Image
                                       src="/assets/img/profile-img.jpg"
                                       alt="User Profile Image"
                                       className="img-fluid rounded-2"
+                                      width={100}
+                                      height={100}
+                                      layout="responsive"
                                     />
                                   </div>
                                   <div className="col-lg">
