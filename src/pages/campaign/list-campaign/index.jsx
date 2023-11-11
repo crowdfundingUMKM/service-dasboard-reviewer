@@ -1,6 +1,6 @@
 import ListCampaignLayout from "@/pages/campaign/list-campaign/layout";
 import Link from "next/link";
-import image from "next/image";
+import Image from "next/image";
 
 export default function ListCampaign() {
 
@@ -43,13 +43,13 @@ export default function ListCampaign() {
                     </ul>
                     <p>
                         Anda bisa melihat lebih detail tentang suatu campaign dengan tombol{" "}
-                        <strong>"Preview"</strong>. Jika ada masalah atau kecurigaan,
-                        gunakan tombol <strong>"Lapor"</strong>. Reviewer dapat mengaktifkan
-                        campaign dengan tombol <strong>"Active"</strong>. Semua ini
+                        <strong>&quot;Preview&rdquo;</strong>. Jika ada masalah atau kecurigaan,
+                        gunakan tombol <strong>&quot;Lapor&rdquo;</strong>. Reviewer dapat mengaktifkan
+                        campaign dengan tombol <strong>&quot;Active&rdquo;</strong>. Semua ini
                         bertujuan untuk mendukung pertumbuhan UMKM di Indonesia.
                     </p>
                     <p>
-                        Untuk tombol <strong>"Deactive"</strong> hanya bisa dilakukan oleh
+                        Untuk tombol <strong>&quot;Deactive&rdquo;</strong> hanya bisa dilakukan oleh
                         Admin Crowdfunding, Akan Tetapi jika anda menjumpai keganjilan anda
                         dapat melaporkan pada Admin
                     </p>
@@ -67,10 +67,13 @@ export default function ListCampaign() {
                     <div className="col-4">
                         {/* Default Card */}
                         <div className="card">
-                        <img
+                        <Image
                             src="/assets/img/card.jpg"
                             className="card-img-top"
                             alt="..."
+                            width={100}
+                            height={100}
+                            layout="responsive"
                         />
                         <div className="card-body">
                             <div className="pt-4">
@@ -148,10 +151,13 @@ export default function ListCampaign() {
                     <div className="col-4">
                         {/* Default Card */}
                         <div className="card">
-                        <img
+                        <Image
                             src="/assets/img/card.jpg"
                             className="card-img-top"
                             alt="..."
+                            width={100}
+                            height={100}
+                            layout="responsive"
                         />
                         <div className="card-body">
                             <div className="pt-4">
@@ -229,10 +235,13 @@ export default function ListCampaign() {
                     <div className="col-4">
                         {/* Default Card */}
                         <div className="card">
-                        <img
+                        <Image
                             src="/assets/img/card.jpg"
                             className="card-img-top"
                             alt="..."
+                            width={500}
+                            height={500}
+                            layout="responsive"
                         />
                         <div className="card-body">
                             <div className="pt-4">
@@ -310,10 +319,13 @@ export default function ListCampaign() {
                     <div className="col-4">
                         {/* Default Card */}
                         <div className="card">
-                        <img
+                        <Image
                             src="/assets/img/card.jpg"
                             className="card-img-top"
                             alt="..."
+                            width={100}
+                            height={100}
+                            layout="responsive"
                         />
                         <div className="card-body">
                             <div className="pt-4">
@@ -390,10 +402,13 @@ export default function ListCampaign() {
                     <div className="col-4">
                         {/* Default Card */}
                         <div className="card">
-                        <img
+                        <Image
                             src="/assets/img/card.jpg"
                             className="card-img-top"
                             alt="..."
+                            width={100}
+                            height={100}
+                            layout="responsive"
                         />
                         <div className="card-body">
                             <div className="pt-4">
