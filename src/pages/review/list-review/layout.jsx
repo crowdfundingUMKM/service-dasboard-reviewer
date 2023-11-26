@@ -5,6 +5,7 @@ export default function ListReviewLayout({ children }) {
       <>
         <Head>
             <title>Daftar Review Anda | Reviewer Mode</title>
+            <meta name="description" content="Daftar review yang telah Anda buat."/>
         </Head>
         {children}
       </>

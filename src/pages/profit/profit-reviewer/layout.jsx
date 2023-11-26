@@ -5,6 +5,7 @@ export default function ProfitLayout({ children }) {
       <>
         <Head>
             <title>Profit Konsultan | Reviewer Mode</title>
+            <meta name="description" content="Profit yang diterima konsultan UMKM"/>
         </Head>
         {children}
       </>

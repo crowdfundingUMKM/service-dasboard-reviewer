@@ -6,6 +6,7 @@ export default function RegisterLayout({ children }) {
       <>
         <Head>
             <title>Register Akun | Reviewer Mode</title>
+            <meta name="description" content="Silahkan Register sebagai pengusaha Crowdfiunding UMKM"/>
         </Head>
         {children}
       </>

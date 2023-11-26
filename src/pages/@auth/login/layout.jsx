@@ -6,6 +6,7 @@ export default function LoginLayout({ children }) {
       <>
         <Head>
             <title>Login Akun | Reviewer Mode</title>
+            <meta name="description" content="Silahkan login sebagai konsultan Crowdfiunding UMKM"/>
         </Head>
         {children}
       </>
