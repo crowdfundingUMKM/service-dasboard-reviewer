@@ -5,6 +5,7 @@ export default function NotifReportLayout({ children }) {
       <>
         <Head>
             <title>Lapor Ke Admin | Reviewer Mode</title>
+            <meta name="description" content="Buat report untuk admin."/>
         </Head>
         {children}
       </>

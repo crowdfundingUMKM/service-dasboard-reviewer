@@ -5,6 +5,7 @@ export default function CreateReviewLayout({ children }) {
       <>
         <Head>
             <title>Buat Review | Reviewer Mode</title>
+            <meta name="description" content="Buat review untuk campaign UMKM"/>
         </Head>
         {children}
       </>

@@ -5,6 +5,7 @@ export default function DashboardLayout({ children }) {
       <>
         <Head>
             <title>Dashboard | Reviewer Mode</title>
+            <meta name="description" content="Selamat datang pada dashboard Crowdfunding UMKM sebagai konsultan UMKM"/>
         </Head>
         {children}
       </>

@@ -5,6 +5,7 @@ export default function ProfileLayout({ children }) {
       <>
         <Head>
             <title>Profile User | Reviewer Mode</title>
+            <meta name="description" content="Profile anda pada Crowdfunding."/>
         </Head>
         {children}
       </>
