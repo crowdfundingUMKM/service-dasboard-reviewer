@@ -9,10 +9,22 @@ import Script from 'next/script';
 /* styles.css atau styles.scss */
 
 
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
+
 function MyApp({ Component, pageProps }) {
 
     const Layout = Component.layout || RootLayout;
 
+    const router = useRouter();
+
+    // redirect to dashboard 
+    useEffect(() => {
+        // Redirect from pages/index.jsx to pages/dashboard/index.jsx
+        if (router.pathname === '/' && typeof window !== 'undefined') {
+        router.push('/dashboard');
+        }
+    });
     
     return (
         <Layout Layout >
