@@ -17,7 +17,7 @@ function Login() {
                                 className="logo d-flex align-items-center w-auto"
                             >
                                 <Image src="/assets/img/logo.png" alt="" height={100} width={100}/>
-                                <span className="d-none d-lg-block">Konsultan CRWD</span>
+                                <span className="d-none d-lg-block">Konsultan</span>
                             </div>
                             </div>
                             {/* End Logo */}
